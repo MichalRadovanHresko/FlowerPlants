@@ -1,0 +1,103 @@
+.plant-card {
+  border: 1px solid #DAA520;
+  border-radius: 12px;
+  margin: 15px 10%;
+  overflow: hidden;
+}
+
+.plant-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  background-color: #f5f5f5;
+}
+
+.plant-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.plant-name {
+  font-size: 24px;
+  color: #2d5016;
+  margin: 0;
+  font-weight: bold;
+}
+
+.plant-level {
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.level-beginner {
+  background-color: #90EE90;
+  color: #2d5016;
+}
+
+.level-intermediate {
+  background-color: #FFD700;
+  color: #2d5016;
+}
+
+.level-expert {
+  background-color: #FF6B6B;
+  color: white;
+}
+
+.plant-scientific {
+  font-style: italic;
+  color: #666;
+  padding: 0 15px;
+}
+
+.plant-description {
+  padding: 15px;
+}
+
+.plant-details {
+  padding: 15px;
+}
+
+.detail-item {
+  padding: 10px;
+  margin-bottom: 5px;
+  border-left: 3px solid #DAA520;
+}
+
+.detail-label {
+  font-weight: bold;
+  color: #B8860B;
+}
+
+.detail-value {
+  color: #2d5016;
+}
+
+.plant-actions {
+  display: flex;
+  padding: 15px;
+  border-top: 1px solid #DAA520;
+}
+
+.action-button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  margin: 0 5px;
+}
+
+.edit-button {
+  background-color: #DAA520;
+  color: white;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: white;
+}
