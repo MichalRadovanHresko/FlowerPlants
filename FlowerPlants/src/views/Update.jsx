@@ -33,12 +33,10 @@ export default function Update() {
   }
 
   function deleteHandler() {
-    if (window.confirm("Are you sure you want to delete this plant?")) {
-      const userPlants = JSON.parse(localStorage.getItem("userPlants")) || [];
-      const updated = userPlants.filter((p) => p.id !== Number(id));
-      localStorage.setItem("userPlants", JSON.stringify(updated));
-      navigate("/myplants");
-    }
+    const userPlants = JSON.parse(localStorage.getItem("userPlants")) || [];
+    const updated = userPlants.filter((p) => p.id !== Number(id));
+    localStorage.setItem("userPlants", JSON.stringify(updated));
+    navigate("/myplants");
   }
 
   return (
